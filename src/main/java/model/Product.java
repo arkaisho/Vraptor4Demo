@@ -5,6 +5,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Product {
+    
     @Id
     long id;
     private String name;
